@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163.647" height="48" viewBox="0 0 163.647 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_167" data-name="Rectangle 167" width="44.178" height="58.642" transform="translate(25 12.225)" fill="#db0011"/>
+    </clipPath>
+  </defs>
+  <g id="Group_372" data-name="Group 372" transform="translate(-384.353 5114)">
+    <g id="Group_363" data-name="Group 363" transform="translate(98.228 -4998)">
+      <g id="Group_367" data-name="Group 367" transform="translate(262.761 -136.589)">
+        <text id="Rulouri_COMPANY" data-name="Rulouri
+COMPANY" transform="translate(88.01 45.589)" fill="#383838" font-size="26" font-family="Montserrat-SemiBold, Montserrat" letter-spacing="0.025em" font-weight="600"><tspan x="0" y="0">Rulouri</tspan><tspan font-size="18" font-family="Montserrat-Regular, Montserrat" font-weight="400"><tspan x="0" y="18">COMPANY</tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Group_371" data-name="Group 371" transform="translate(455.22 -5137.089) rotate(90)" clip-path="url(#clip-path)">
+      <g id="Group_370" data-name="Group 370" transform="translate(26.443 12.225)">
+        <path id="Path_409" data-name="Path 409" d="M5.375,35.779V0L0,2.621V39.726a22.987,22.987,0,0,0,5.375-3.947" transform="translate(35.917 15.266)" fill="#db0011"/>
+        <path id="Path_410" data-name="Path 410" d="M5.375,0,0,2.62V54.2a31.993,31.993,0,0,0,5.375-1.465Z" transform="translate(26.938 3.878)" fill="#db0011"/>
+        <path id="Path_411" data-name="Path 411" d="M5.375,2.62,0,0V52.737A32.006,32.006,0,0,0,5.375,54.2Z" transform="translate(8.979 3.878)" fill="#db0011"/>
+        <path id="Path_412" data-name="Path 412" d="M0,0V53.276q1.325.083,2.688.084t2.688-.084V0" transform="translate(17.959 5.282)" fill="#db0011"/>
+        <path id="Path_413" data-name="Path 413" d="M5.375,39.725V2.621L0,0V35.78a22.992,22.992,0,0,0,5.375,3.945" transform="translate(0 15.266)" fill="#db0011"/>
+        <g id="Group_369" data-name="Group 369" transform="translate(41.292 53.05) rotate(180)">
+          <path id="Path_414" data-name="Path 414" d="M5.375,35.779V0L0,2.621V39.726a22.987,22.987,0,0,0,5.375-3.947" transform="translate(35.917 9.674)" fill="#db0011"/>
+          <path id="Path_415" data-name="Path 415" d="M5.375,0,0,2.105V43.541a38.342,38.342,0,0,0,5.375-1.177Z" transform="translate(26.937 8.946)" fill="#db0011"/>
+          <path id="Path_416" data-name="Path 416" d="M5.375,2.1,0,0V42.365a38.359,38.359,0,0,0,5.375,1.176Z" transform="translate(8.979 8.946)" fill="#db0011"/>
+          <path id="Path_417" data-name="Path 417" d="M0,0V52.966q1.325.083,2.688.084t2.688-.084V0" transform="translate(17.959 0)" fill="#db0011"/>
+          <path id="Path_418" data-name="Path 418" d="M5.375,39.725V2.621L0,0V35.78a22.992,22.992,0,0,0,5.375,3.945" transform="translate(0 9.674)" fill="#db0011"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

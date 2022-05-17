@@ -1,8 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+// Variables
 $primary-color: #be1522;
-$secondary-color: #f7f7f7;
+$secondary-color: #db0011;
 $text-color: #20211f;
 $white: #ffffff;
-:root {
-  --bs-body-font-family: 'Poppins', sans-serif;
+
+// Set default values
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+}
+.btn {
+  border-radius: 10px;
+  background-color: $secondary-color;
+  color: white;
+  font-size: 0.85rem;
+}
+.nav-link {
+  position: relative;
+  color: $text-color;
+  &:hover {
+    color: $secondary-color;
+  }
+  &:focus {
+    color: $secondary-color;
+  }
+  &:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background: $secondary-color;
+    width: 100%;
+  }
 }

@@ -1,5 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap");
-:root {
-  --bs-body-font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #db0011;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.nav-link {
+  position: relative;
+  color: #20211f;
+}
+
+.nav-link:hover {
+  color: #db0011;
+}
+
+.nav-link:focus {
+  color: #db0011;
+}
+
+.nav-link:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background: #db0011;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
