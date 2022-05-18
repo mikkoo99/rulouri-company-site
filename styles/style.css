@@ -15,16 +15,16 @@ body {
   font-size: 0.85rem;
 }
 
+.btn:hover {
+  color: #ffffff;
+}
+
 .nav-link {
   position: relative;
   color: #20211f;
 }
 
 .nav-link:hover {
-  color: #db0011;
-}
-
-.nav-link:focus {
   color: #db0011;
 }
 
@@ -35,5 +35,22 @@ body {
   height: 3px;
   background: #db0011;
   width: 100%;
+}
+
+.active {
+  color: #db0011;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background: #db0011;
+  width: 100%;
+}
+
+.font-nav {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

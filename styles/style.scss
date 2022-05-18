@@ -18,6 +18,9 @@ body {
   background-color: $secondary-color;
   color: white;
   font-size: 0.85rem;
+  &:hover{
+    color: #ffffff;
+  }
 }
 .nav-link {
   position: relative;
@@ -25,10 +28,8 @@ body {
   &:hover {
     color: $secondary-color;
   }
-  &:focus {
-    color: $secondary-color;
-  }
-  &:hover::before {
+
+  &:hover::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -36,4 +37,15 @@ body {
     background: $secondary-color;
     width: 100%;
   }
+}
+.active {
+  color: $secondary-color;
+}
+.active::before{
+  content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background: $secondary-color;
+    width: 100%;
 }
