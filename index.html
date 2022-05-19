@@ -19,11 +19,15 @@
 	</head>
 
 	<body>
+		<!--begin::navbar-->
 		<div class="navbar navbar-expand-xl my-2">
 			<div class="container">
+				<!--begin::navbar-logo-->
 				<a class="navbar-brand" href="#">
 					<img src="./assets/logo/Group 372.svg" alt="Logo" />
 				</a>
+				<!--end::navbar-logo-->
+				<!--begin::navbar-hamburger-->
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -38,7 +42,9 @@
 						src="./assets/icons/Icon feather-menu.svg"
 						alt=""
 					/>
+					<!--end::navbar-hamburger-->
 				</button>
+				<!--begin::navbar-items-->
 				<div class="collapse navbar-collapse ms-xl-5" id="navbarNav">
 					<ul class="navbar-nav ms-auto d-flex align-items-center">
 						<li class="nav-item">
@@ -72,8 +78,49 @@
 						</li>
 					</ul>
 				</div>
+				<!--end::navbar-items-->
+			</div>
+			<!--end::navbar-->
+		</div>
+		<!--begin::hero-section-->
+		<div
+			class="container hero-section d-flex flex-column justify-content-center"
+		>
+			<div class="row gx-5">
+				<!--begin::hero-content-->
+				<div class="col-6 d-flex flex-column my-auto">
+					<h1>Skontaktuj się z nami i zamów darmowy pomiar.</h1>
+					<p class="py-4">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation.
+					</p>
+					<div class="d-block mt-4">
+						<button type="button" class="btn me-3">Zamów pomiar</button>
+						<button type="button" class="btn btn-outline">Zadaj pytanie</button>
+					</div>
+				</div>
+				<!--end::hero-content-->
+				<!--begin::hero-image-->
+				<div class="col-6">
+					<img
+						src="./assets/images/Hero_section_img.svg"
+						class="img-fluid"
+						alt=""
+					/>
+				</div>
+				<!--end::hero-image-->
+				<span>
+					<img
+						class="mt-5"
+						src="./assets/icons/arrows.svg"
+						width="95px"
+						alt=""
+					/>
+				</span>
 			</div>
 		</div>
+		<!--end::hero-section-->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

@@ -1,4 +1,4 @@
-* {
+h1, h2, h3, h4, h5, h6, p, a, li, ul {
   padding: 0;
   margin: 0;
 }
@@ -13,6 +13,7 @@ body {
   background-color: #db0011;
   color: white;
   font-size: 0.85rem;
+  padding: 1.1rem 2.5rem;
 }
 
 .btn:hover {
@@ -50,7 +51,26 @@ body {
   width: 100%;
 }
 
-.font-nav {
-  font-weight: 600;
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.d-block .btn-outline {
+  border: 2px solid #db0011;
+  background-color: white;
+  color: #db0011;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.hero-section {
+  height: 80vh;
 }
 /*# sourceMappingURL=style.css.map */
