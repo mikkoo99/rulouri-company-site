@@ -38,26 +38,14 @@ body {
   width: 100%;
 }
 
-.active {
-  color: #db0011;
-}
-
-.active::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  height: 3px;
-  background: #db0011;
-  width: 100%;
-}
-
 h1 {
-  font-size: 48px;
+  font-size: 40px;
+  line-height: 44px;
 }
 
 p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .d-block .btn-outline {
@@ -68,9 +56,5 @@ p {
 
 .navbar-toggler {
   padding: 0;
-}
-
-.hero-section {
-  height: 80vh;
 }
 /*# sourceMappingURL=style.css.map */

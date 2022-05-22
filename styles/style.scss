@@ -40,24 +40,25 @@ body {
     width: 100%;
   }
 }
-.active {
-  color: $secondary-color;
-}
-.active::before{
-  content: '';
-    position: absolute;
-    bottom: 0;
-    height: 3px;
-    background: $secondary-color;
-    width: 100%;
-}
+// .active {
+//   color: $secondary-color;
+// }
+// // .active::before{
+// //   content: '';
+// //     position: absolute;
+// //     bottom: 0;
+// //     height: 3px;
+// //     background: $secondary-color;
+// //     width: 100%;
+// // }
 
 h1{
-  font-size: 48px;
+  font-size: 40px;
+  line-height: 44px;
 }
 p{
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .d-block{
   .btn-outline{
@@ -68,7 +69,4 @@ p{
 }
 .navbar-toggler{
   padding: 0;
-}
-.hero-section{
-  height: 80vh;
 }
