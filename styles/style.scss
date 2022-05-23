@@ -1,57 +1,15 @@
 // Variables
-$primary-color: #be1522;
-$secondary-color: #db0011;
+$primary-color: #db0011;
+$secondary-color: #be1522;
 $text-color: #20211f;
 $white: #ffffff;
 
 // Set default values
-
 h1,h2,h3,h4,h5,h6,p,a,li,ul{
   padding: 0;
   margin: 0;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.85rem;
-}
-.btn {
-  border-radius: 10px;
-  background-color: $secondary-color;
-  color: white;
-  font-size: 0.85rem;
-  padding: 1.1rem 2.5rem;
-  &:hover{
-    color: #ffffff;
-  }
-}
-.nav-link {
-  position: relative;
   color: $text-color;
-  &:hover {
-    color: $secondary-color;
-  }
-
-  &:hover::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    height: 3px;
-    background: $secondary-color;
-    width: 100%;
-  }
 }
-// .active {
-//   color: $secondary-color;
-// }
-// // .active::before{
-// //   content: '';
-// //     position: absolute;
-// //     bottom: 0;
-// //     height: 3px;
-// //     background: $secondary-color;
-// //     width: 100%;
-// // }
-
 h1{
   font-size: 40px;
   line-height: 44px;
@@ -60,13 +18,41 @@ p{
   font-size: 16px;
   line-height: 20px;
 }
-.d-block{
-  .btn-outline{
-  border: 2px solid $secondary-color;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+}
+
+//Buttons
+.btn {
+  border-radius: 10px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 0.85rem;
+  padding: 1.1rem 2.5rem;
+  &:hover{
+    color: #ffffff;
+  }
+}
+.btn-outline{
+  border: 2px solid $primary-color;
   background-color: white;
-  color: $secondary-color
+  color: $primary-color
 }
-}
-.navbar-toggler{
-  padding: 0;
+
+//Navigation
+.nav-link {
+  position: relative;
+  &:hover {
+    color: $primary-color;
+  }
+
+  &:hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background: $primary-color;
+    width: 100%;
+  }
 }
