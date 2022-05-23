@@ -1,0 +1,41 @@
+//HEADINGS
+h1{
+  font-size: 48px;
+  line-height: 52px;
+}
+h2{
+  font-size: 36px;
+  line-height: 40px;
+}
+h3{
+  font-size: 24;
+  line-height: 28;
+}
+h4{
+  font-size: 21px;
+  line-height: 25px;
+}
+h5{
+  font-size: 18px;
+  line-height: 22px;
+}
+h6{
+  font-size: 16px;
+  line-height: 20px;
+}
+
+// CONTENT
+p{
+  font-size: 14px;
+  line-height: 18px;
+}
+.large-text{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+// OTHERS
+a, label, li, .btn{
+  font-size: 14px !important;
+  line-height: 18px;
+}

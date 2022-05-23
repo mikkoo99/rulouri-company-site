@@ -1,17 +1,46 @@
-h1, h2, h3, h4, h5, h6, p, a, li, ul {
-  padding: 0;
-  margin: 0;
-  color: #20211f;
+h1 {
+  font-size: 48px;
+  line-height: 52px;
 }
 
-h1 {
-  font-size: 40px;
-  line-height: 44px;
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24;
+  line-height: 28;
+}
+
+h4 {
+  font-size: 21px;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.large-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+a, label, li, .btn {
+  font-size: 14px !important;
+  line-height: 18px;
 }
 
 body {
@@ -37,7 +66,12 @@ body {
   color: #db0011;
 }
 
+.btn-outline:hover {
+  color: #db0011;
+}
+
 .nav-link {
+  color: #20211f;
   position: relative;
 }
 
