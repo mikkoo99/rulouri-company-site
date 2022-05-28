@@ -1,45 +1,45 @@
-h1 {
+//HEADINGS
+h1{
   font-size: 48px;
   line-height: 52px;
+  @media only screen and (max-width: 768px){
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
-
-h2 {
+h2{
   font-size: 36px;
   line-height: 40px;
 }
-
-h3 {
-  font-size: 24;
+h3{
+  font-size: 24px;
   line-height: 28;
 }
-
-h4 {
+h4{
   font-size: 21px;
   line-height: 25px;
 }
-
-h5 {
+h5{
   font-size: 18px;
   line-height: 22px;
 }
-
-h6 {
+h6{
   font-size: 16px;
   line-height: 20px;
 }
 
-p {
-  font-size: 14px;
-  line-height: 18px;
+// CONTENT
+p{
+  font-size: 16px;
+  line-height: 20px;
 }
-
-.large-text {
+.large-text{
   font-size: 18px;
   line-height: 22px;
 }
 
-a, label, li, .btn {
+// OTHERS
+a, label, li, .btn{
   font-size: 14px;
   line-height: 18px;
 }
-/*# sourceMappingURL=fonts.css.map */
